@@ -396,12 +396,12 @@ export default {
     }
   },
   "product_filter_menu": {
-    "only_original": "أصول فقط",
-    "only_has_discount": "فقط مخفضة",
+    "only_original": "المنتجات الأصلية فقط",
+    "only_has_discount": "الخصومات فقط",
     "price_range": "نطاق السعر",
     "brands": "ماركة",
     "main_shop_page": "صفحة المتجر الرئيسية",
-    "home": "مسكن"
+    "home": "الرئيسية"
   },
   "product_rating_view": {
     "message": "عزيزي {user} ، لقد اشتريت هذا المنتج. ما رأيك في هذا المنتج؟",
@@ -413,20 +413,20 @@ export default {
   "blogs": {
     "title": "مدونة او مذكرة",
     "add_new_blog": "مدونة جديدة",
-    "popular": "جمع",
+    "popular": "مشهور",
     "topics": "المواضيع",
     "suggestions": "اقتراحات"
   },
   "official_pages": {
-    "about_us": "معلومات عنا",
-    "terms": "تعليمات الاستخدام",
-    "privacy": "سياسة خاصة",
+    "about_us": "عن الشركة ",
+    "terms": "شروط الاستخدام",
+    "privacy": "سياسة الخصوصية",
     "contact_us": "اتصل بنا"
   },
   "contact_us_form": {
     "title": "نموذج الاتصال بنا",
     "name": "اسم",
-    "email": "بريد الالكتروني",
+    "email": "البريد الالكتروني",
     "phone": "هاتف",
     "message": "رسالة",
     "notifications": {
@@ -436,19 +436,19 @@ export default {
   "master_payment": {
     "notifications": {
       "payment_success_title": "تأكيد الدفعة",
-      "payment_success": "تم التسديد.",
-      "buy_title": "يشتري",
-      "pay_by_giftcards": "تم دفع طلبك ببطاقة هدايا.",
-      "free_order": "طلبك مجاني.",
-      "pay_by_cod": "تمت إضافة طلبك نقدًا عند التسليم.",
+      "payment_success": "تم الدفع.",
+      "buy_title": "شراء",
+      "pay_by_giftcards": " ادفع بقسيمة هدية.",
+      "free_order": "طلب مجاني.",
+      "pay_by_cod": "تمت إضافة طلبك والدفع نقدًا عند التسليم.",
       "pay_by_dir": "تمت إضافة طلبك بنجاح. يمكنك الآن الدفع عن طريق التحويل المباشر للأموال ثم تحميل إيصال الدفع في صفحة الطلب.",
       "pay_title": "قسط",
-      "qr_code_payment": "تم إنشاء عنوان رمز الاستجابة السريعة للدفع.",
+      "qr_code_payment": "تم إنشاء عنوان الكيو ار كود للدفع.",
       "connecting_to_online_gateway": "الاتصال ببوابة الدفع عبر الإنترنت."
     }
   },
   "time_progress_bar": {
-    "title_before_start": "بقيت في البداية",
+    "title_before_start": "قبل البداية",
     "title_between_start_end": "بقيت حتى النهاية",
     "title_after_end": "تم الانتهاء من",
     "title_no_start_end": "بدون فترة!"
@@ -458,7 +458,7 @@ export default {
   },
   "coupons": {
     "coupon_code": "رمز الكوبون",
-    "add_coupon": "أضف عرض"
+    "add_coupon": "أضف كوبون"
   },
   "avocado": {
     "not_enable": "لم يتم تمكين شكل الأفوكادو!",
@@ -471,7 +471,7 @@ export default {
     "image_msg": "يمكنك إرسال صورة المنتج إذا لزم الأمر.",
     "add_item": "اضافة عنصر",
     "items_list": "قائمة المنتجات المطلوبة",
-    "currency_msg": "يجب عليك دفع مبلغ هذا الطلب بهذه العملة.",
+    "currency_msg": "يجب عليك دفع ثمن هذا الطلب بهذه العملة.",
     "step2": "2. بعد إضافة جميع العناصر المطلوبة ، انقر فوق زر طلب مراجعة الطلب. في هذه المرحلة ، سنراجع الطلب ونعلمك بالسعر. من خلال النقر على هذا الرابط ، ستتمكن من رؤية السعر ورابط الدفع.",
     "order_action": "طلب التسجيل",
     "show_all": "عرض الكل",
@@ -479,7 +479,7 @@ export default {
     "last_orders": "قائمة طلباتك الأخيرة",
     "pending_status": "قيد المراجعة",
     "check_now": "تحقق من الطلب",
-    "add_new_order": "تقديم طلب جديد",
+    "add_new_order": "اضافة طلب جديد",
     "pay_online": "ادفع عبر الإنترنت",
     "pricing_not_completed_message": "طلبك قيد المراجعة. ستتم مراجعة طلبك وتسعيره قريبًا وستتمكن من دفع الطلب.",
     "delete_item_dialog": {
@@ -494,7 +494,7 @@ export default {
   },
   "hyper": {
     "title": "طلب إنشاء",
-    "message": "قم بإنشاء قائمة المنتجات التي ترغب في شرائها عن طريق مسح رمز المنتج ضوئيًا.",
+    "message": "قم بإنشاء قائمة المنتجات التي ترغب في شرائها عن طريق مسح الضوئي (سكان) لكود المنتج.",
     "currency_msg": "العملة التي تريد الدفع بها.",
     "order_action": "قسط",
     "add_new_order": "طلب جديد",
@@ -525,7 +525,7 @@ export default {
       "selected_checkin": "تسجيل الوصول المحدد من قبل العميل",
       "selected_checkout": "تسجيل المغادرة المحدد من قبل العميل",
       "change_days_question": "هل تحتاج إلى التغيير خلال الأيام المحددة للعميل؟",
-      "show_calendar": "عرض تقويم الطلبات"
+      "show_calendar": "عرض التقويم الخاص بالطلبات"
     },
     "pricing": {
       "title": "التسعير",
@@ -534,12 +534,12 @@ export default {
     "subscription": {
       "title": "الاشتراك",
       "message": "يمكنك اختيار فترة الاشتراك عن طريق شراء هذه الخدمة على أساس يومي. دع المشتري يعرف ما إذا كنت تريد تغيير القيم الافتراضية التي أدخلتها بالفعل.",
-      "duration": "فترة الاكتتاب"
+      "duration": "المدة "
     },
     "charge": {
       "title": "الشحنة",
       "message": "لقد حددت تكلفة لهذا العنصر. يمكنك تغيير مبلغ الرسوم للعنصر الذي اشتراه العميل.",
-      "charge": "الشحنة"
+      "charge": "التكلفة"
     }
   }
 };
