@@ -7,8 +7,8 @@ export default {
     "ممتاز"
   ],
   "footer": {
-    "map": "خريطة",
-    "email": "بريد الالكتروني",
+    "map": "الخريطة",
+    "email": "البريد الالكتروني",
     "phone": "هاتف",
     "address": "عنوان",
     "copyright": "استخدام المحتوى فقط للأغراض غير التجارية والإشارة إلى المصدر (رابط بـ {shop_title}). جميع الحقوق محفوظة لـ {shop_title}.",
@@ -23,7 +23,7 @@ export default {
   },
   "product_card": {
     "sold_out": "نفذت الكمية",
-    "review_unit": "مراجعة الوحدة",
+    "review_unit": "مراجعة القطعة",
     "not_original": "غير اصلية"
   },
   "shop": {
@@ -39,12 +39,12 @@ export default {
     "title_small": "ترتيب حسب..",
     "nothing": "لا شيئ",
     "most_views": "الأكثر مشاهدة",
-    "most_likes": "الأكثر اعجاب",
+    "most_likes": "الأكثر اعجابات",
     "most_recent": "الأحدث",
     "most_sell": "الأفضل مبيعا",
     "cheapest": "أرخص",
     "most_expensive": "الأغلى",
-    "only_available": "متوفرة",
+    "only_available": "المتوفر فقط",
     "view_mode": {
       "normal": "طبيعي",
       "grid": "جريد",
@@ -55,10 +55,10 @@ export default {
   "product_info": {
     "fake": "مزيف",
     "action": "فعل",
-    "compare_limit": "10 عناصر كحد أقصى",
+    "compare_limit": "10 عناصر كحدأقصى",
     "compare_add": "أضف للمقارنة",
     "compare_be_in_list": "في قائمة المقارنة",
-    "type": "يكتب",
+    "type": "نوع",
     "brand": "ماركة",
     "category": "قسم",
     "discount": "خصم",
@@ -70,9 +70,9 @@ export default {
     "support_normal": "دعم ساعات العمل",
     "original_guarantee": "الضمان الأصلي",
     "cod_payment": "الدفع نقدا عند التسليم ",
-    "pros": "الايجابيات",
-    "cons": "سلبيات",
-    "external_link": "اقرأ أكثر",
+    "pros": "المميزات",
+    "cons": "السلبيات",
+    "external_link": "روابط خارجية",
     "notifications": {
       "congratulation": "تهانينا",
       "waiting_list_add_success": "سوف نخطرك عندما يتم بيع هذا المنتج بالمزاد.",
@@ -80,11 +80,11 @@ export default {
     },
     "offer_message": "اشترِ {min_quantity} واحصل على خصم {percent}٪ على هذه العناصر",
     "up_to": "ما يصل إلى {per_order} x لكل طلب",
-    "get_free": "تحرر",
+    "get_free": "احصل مجانا",
     "get_off": "احصل على خصم بنسبة {percent}٪"
   },
   "buy_button": {
-    "waiting_for_availability": "في انتظار التوافر",
+    "waiting_for_availability": "في انتظار توفر المنتج",
     "inform_me_when_available": "اخبرني عندما يتوفر",
     "pay_buy": "الدفع والشراء",
     "quantity": "الكمية",
@@ -99,18 +99,18 @@ export default {
     }
   },
   "product": {
-    "review": "استعراض",
+    "review": "وصف المنتج",
     "spec": "المواصفات",
     "comments": "تعليقات",
     "related_products_title": "منتجات ذات صله",
     "price": "السعر",
-    "rate": "معدل",
+    "rate": "تقييم",
     "comment": "تعليق"
   },
   "layout_shop": {
     "shop_menu": {
       "orders_history": "تاريخ الطلبات",
-      "profile": "ملفي",
+      "profile": "الملف الشخصي",
       "favorites": "العناصر المفضلة",
       "gift_cards": "بطاقات الهدايا",
       "return_requests": "الطلبات المرتجعة",
