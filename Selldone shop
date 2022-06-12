@@ -130,9 +130,9 @@ export default {
   "basket_top_menu": {
     "basket": "عربة التسوق",
     "basket_is_empty": "عربة التسوق فارغة.",
-    "total_price": "المجموع",
-    "view_basket": "عربتك",
-    "more": "أكثر ...",
+    "total_price": "السعر الإجمالي",
+    "view_basket": "سلة التسوق",
+    "more": " المزيد ...",
     "accept_and_pay": "الدفع",
     "items": "أغراض)"
   },
@@ -141,7 +141,7 @@ export default {
     "table": {
       "code": "رمز الطلب",
       "reserved": "تاريخ",
-      "delivery_state": "حالة التوصيل",
+      "delivery_state": "حالة الشحن",
       "price": "السعر الكلي",
       "status": "حالة السداد"
     }
@@ -151,19 +151,19 @@ export default {
       "code": "رمز الطلب",
       "items": "أغراض",
       "reserved": "تاريخ",
-      "delivery_state": "أحدث حالة",
+      "delivery_state": "حالة الشحن",
       "price": "السعر الكلي",
       "status": "حالة السداد"
     }
   },
   "user_page": {
     "menu": {
-      "gift_card": "كرت هدية",
+      "gift_card": "بطاقة هدية",
       "comments": "تعليقات",
       "favorites": "المفضلة",
-      "return_requests": "عائدات",
+      "return_requests": "مرتجعات",
       "addresses": "عناوين",
-      "profile": "حساب تعريفي",
+      "profile": "الحساب الشخصي",
       "orders": "الطلب #٪ s"
     }
   },
@@ -172,25 +172,25 @@ export default {
     "payment": {
       "title": "قسط",
       "payment_waiting": "في انتظار السداد",
-      "payment_completed": "دفع",
+      "payment_completed": "تم الدفع",
       "table": {
         "title": "عنوان",
-        "amount": "مقدار",
+        "amount": "الكمية",
         "description": "وصف"
       },
-      "total_payment": "المبلغ المدفوع",
+      "total_payment": "المبلغ الكلي المدفوع",
       "discount": "خصم",
-      "discount_code": "رمز التخفيض",
+      "discount_code": "كود الخصم",
       "delivery_fee": "تكلفة الشحن",
-      "delivery_fee_after": "دفع أي تسليم",
+      "delivery_fee_after": "تكلفة الشحن عند الاستلام",
       "total_price": "إجمالي سعر العناصر",
-      "total_items_discount": "خصم الأصناف",
-      "total_price_after_offers": "المجموع بعد تطبيق العروض",
-      "buyer_payment": "مبلغ دفع المشتري"
+      "total_items_discount": "قيمة الخصم الكلية",
+      "total_price_after_offers": "السعر الإجمالي بعد تطبيق الخصومات",
+      "buyer_payment": "مبلغ الشراء"
     },
     "delivery": {
       "title": "توصيل",
-      "subtitle": "معلومات المشتري",
+      "subtitle": "بيانات المشتري",
       "confirm_received_action": "تأكيد استلام المنتج",
       "confirm_received_info": "انقر فوق زر التأكيد إذا تلقيت الطلب. إذا لزم الأمر ، ستتمكن من إرسال إحالة إذا تلقيت تأكيدًا.",
       "Recipient": "متلقي",
@@ -199,49 +199,49 @@ export default {
       "tel": "هاتف",
       "email": "بريد الالكتروني",
       "country": "دولة",
-      "state": "حالة",
+      "state": "محافظة",
       "city": "مدينة",
       "address": "عنوان",
       "building_no": "رقم المبنى",
-      "unit_no": "رقم الوحدة",
+      "unit_no": "رقم العقار",
       "postal_code": "الرمز البريدي",
       "description": "وصف",
       "order_delivered": "تم تسليم الطلب.",
       "delivery_time": "موعد التسليم",
-      "tracking_code": "شفرة التتبع",
-      "tracking_url": "تتبع Url",
+      "tracking_code": "كود التتبع",
+      "tracking_url": "رابط التتبع",
       "notifications": {
         "confirm_delivery": "تم تأكيد طلبك."
       }
     },
     "basket_items": {
-      "original_warranty": "ضمان أصالة البضاعة",
-      "return": "يعود",
+      "original_warranty": "ضمان المنتج الأصلي",
+      "return": "استرجاع",
       "table": {
         "product": "اسم المنتج",
         "count": "عدد",
-        "unit_price": "سعر الوحده",
+        "unit_price": "سعر القطعة",
         "total_price": "السعر الكلي",
         "discount": "خصم",
         "final_price": "السعر النهائي",
-        "returned": "عاد"
+        "returned": "تم استرجاعه"
       }
     }
   },
   "return_request": {
-    "title": "يعود",
+    "title": "استرجاع",
     "count_input": "عدد العناصر التي تم إرجاعها",
-    "count_input_message": "كم عدد العناصر التي ترجعها؟",
-    "reason_input": "سبب العودة",
-    "reason_input_message": "حدد سبب إعادة هذا العنصر.",
+    "count_input_message": "كم عدد العناصر التي تسترجعها؟",
+    "reason_input": "سبب الاسترجاع",
+    "reason_input_message": "حدد سبب استرجاع هذا العنصر.",
     "note_input": "وصف",
-    "note_input_hint": "صف سبب الارجاع ..",
-    "note_input_message": "صف سبب إرجاع هذا العنصر إذا لزم الأمر.",
+    "note_input_hint": "صف سبب الاسترجاع ..",
+    "note_input_message": "صف سبب إسترجاع هذا العنصر إذا لزم الأمر.",
     "media_message": "يمكنك تحميل صورة أو صوت أو فيديو للمنتج هنا للحصول على دعم أفضل لمعلومات حالة المنتج. سيؤدي تحديد الملف إلى الإرسال والتأكيد تلقائيًا.",
     "video": "فيديو",
     "voice": "صوت",
-    "add_action": "إرسال طلب العودة",
-    "notifications": "تم تسجيل طلب عودتك بنجاح."
+    "add_action": "إرسال طلب الاسترجاع",
+    "notifications": "تم تسجيل طلب الاسترجاع بنجاح."
   },
   "virtual_order_page": {
     "title": "طلب",
@@ -254,20 +254,20 @@ export default {
     "name": "اسم",
     "email": "بريد الالكتروني",
     "tel": "هاتف",
-    "identity": "المصادقة",
-    "success_kyc": "تم التحقق من اعرف عميلك",
+    "identity": "الهوية",
+    "success_kyc": "تم التحقق من الهوية",
     "club": "مستوى المستخدم",
-    "subscription": "الاشتراك في الأخبار",
+    "subscription": "الاشتراك في النشرة",
     "leave_shop": "اترك هذا المتجر وقم بإزالة مستوى جميع العملاء",
-    "leave_shop_action": "اترك المحل",
+    "leave_shop_action": "اترك المتجر",
     "edit_personal_info": "تحرير المعلومات الشخصية",
     "leave_dialog": {
-      "title": "اترك المحل",
+      "title": "اترك المتجر",
       "message": "لن يؤدي إلغاء الاشتراك في هذا المتجر إلى حذف معلومات الطلب والسجلات.",
-      "action": "يترك"
+      "action": "مغادرة"
     },
     "notifications": {
-      "leave_success": "اترك المحل"
+      "leave_success": "لقد تركت المتجر"
     },
     "club_table": {
       "discount": "خصم",
@@ -281,11 +281,11 @@ export default {
     "total_price": "المبلغ الإجمالي",
     "shipping": "تكلفة الشحن",
     "free_shipping": "الشحن مجانا",
-    "shipping_not_pay": "غير مشمول",
+    "shipping_not_pay": "الشحن غير مشمول",
     "total_discount": "إجمالي الخصم",
-    "customer_club": "عضو نادي العميل",
+    "customer_club": " عضوية العميل ",
     "customer_club_discount": "خصم الأعضاء",
-    "final_price": "الدفعة الأخيرة",
+    "final_price": "السعر النهائي",
     "lead_time": "وقت التحضير",
     "lead_time_unit": "ساعة",
     "receive_time": "وقت التسليم المفضل",
@@ -299,15 +299,15 @@ export default {
     "time_input_label": "التسليم في",
     "time_input_label_no_data": "حدد فترة زمنية واحدة على الأقل",
     "support_cod": "الدفع عند الاستلام",
-    "not_support_cod": "غير قادر على الدفع محليًا!",
+    "not_support_cod": "لا يمكن الدفع عند الاستلام!",
     "final_confirm_action": "تأكيد الطلب النهائي",
     "pay_and_complete_action": "ادفع الآن",
     "pre_confirm_service": "تقديم الطلب",
     "errors": {
       "no_address": "حدد العنوان الذي تريد شحن طلبك إليه.",
-      "no_phone": "أدخل رقم جهة اتصال لتنسيق استلام البضائع.",
+      "no_phone": "أدخل رقم جهة اتصال لتنسيق استلام المنتجات.",
       "select_billing_country": "حدد بلد الفوترة",
-      "select_billing_state": "حدد منطقتك الضريبية"
+      "select_billing_state": "حدد منطقتك "
     },
     "same_billing_address": "معلومات الفواتير هي نفسها معلومات المستلم",
     "custom_billing_info": "معلومات الفواتير المختلفة",
@@ -328,25 +328,25 @@ export default {
     "new_action": "عنوان جديد",
     "Recipient": "متلقي",
     "address": "عنوان",
-    "building_no": "لوحة ترخيص",
-    "building_unit": "وحدة",
+    "building_no": "رقم الوحدة",
+    "building_unit": "الوحدة",
     "postcode": "الرمز البريدي",
     "tel": "هاتف",
-    "description": "ملحوظة",
+    "description": "الوصف",
     "map": {
       "title": "عناويني",
       "confirm": "تسجيل العنوان",
       "address_type": "عنوان",
-      "receptor_type": "متلقي"
+      "receptor_type": "المستلم"
     },
     "add_dialog": {
-      "title": "اسم العنوان الجديد",
-      "message": "أدخل عنوانًا لعنوان جديد.",
+      "title": " العنوان الجديد",
+      "message": "أدخل مسمى لعنوان جديد.",
       "address_name_input": "العنوان (مطلوب)"
     }
   },
   "return_requests": {
-    "title": "طلبات الإرجاع"
+    "title": "طلبات الإسترجاع"
   },
   "user_favorites": {
     "title": "قائمة الرغبات"
@@ -357,14 +357,14 @@ export default {
     "last_edit": "آخر تعديل"
   },
   "user_gift_cards": {
-    "title": "بطاقات الهدايا الخاصة بي",
-    "add_action": "إضافة بطاقة",
+    "title": "قسيمة الهدايا الخاصة بي",
+    "add_action": "إضافة قسيمة",
     "add_card_dialog": {
-      "title": "أضف بطاقة هدية",
-      "message": "أدخل رقم البطاقة ورمز الحماية. ستتم إضافة بطاقة هدية إلى حسابك.",
-      "card_number_input": "رقم البطاقة",
-      "info": "ملاحظة: عند الشراء من المتجر ، سيظهر لك خيار الدفع ببطاقات الهدايا. بتحديد هذا الخيار ، سيتم خصم مبلغ رصيد إعادة الشحن من مبلغ الطلب.",
-      "add_action": "تسجيل البطاقة"
+      "title": "أضف قسيمة هدية",
+      "message": "أدخل رقم البطاقة وكود الحماية. ستتم إضافة بطاقة هدية إلى حسابك.",
+      "card_number_input": "رقم القسيمة",
+      "info": "ملاحظة: عند الشراء من المتجر ، سيظهر لك خيار الدفع ببطاقات الهدايا. بتحديد هذا الخيار ، سيتم خصم رصيد قسيمة الهدية من مبلغ الطلب.",
+      "add_action": "تسجيل القسيمة"
     }
   },
   "product_comparison": {
@@ -373,18 +373,18 @@ export default {
     "list": {
       "no_data": "لم يتم إضافة أي منتجات إلى قائمة المقارنة.",
       "price": "السعر",
-      "type": "يكتب",
-      "brand": "ماركة",
-      "warranty": "ضمان",
+      "type": "النوع",
+      "brand": "الماركة",
+      "warranty": "الضمان",
       "variants_comparison": "قارن بين متغيرات المنتج",
       "spec": "المواصفات الفنية",
-      "pros": "الايجابيات",
-      "cons": "سلبيات",
+      "pros": "المميزات",
+      "cons": "السلبيات",
       "user_review": "تعليقات المستخدم",
       "rating": "تقييم",
       "rating_count": "عدد المراجعات",
-      "info": "يمكنك مشاركة جدول مقارنة المنتج هذا مع أصدقائك عن طريق إرسال الرابط التالي ، أو الوصول إليه لاحقًا عن طريق حفظ هذا الارتباط.",
-      "copy_action": "انسخ ارتباط المقارنة",
+      "info": "يمكنك مشاركة جدول مقارنة المنتج هذا مع أصدقائك عن طريق إرسال الرابط التالي ، أو الوصول إليه لاحقًا عن طريق حفظ هذا الرابط.",
+      "copy_action": "انسخ رابط المقارنة",
       "check_list": [
         "نعم",
         "لديها"
